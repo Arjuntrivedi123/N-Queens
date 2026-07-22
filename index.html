@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Queens</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>N-Queens</h1>
+
+        <p class="subtitle">
+            Validate First → Then Solve (Backtracking Algorithm)
+        </p>
+
+        <div class="input-section">
+
+            <label for="nValue">
+                Enter Value of N :
+            </label>
+
+            <input
+                type="number"
+                id="nValue"
+                min="4"
+                max="12"
+                placeholder="Example : 8"
+            >
+
+        </div>
+
+        <div class="button-section">
+
+            <button id="validateBtn">
+                Validate
+            </button>
+
+            <button id="solveBtn">
+                Solve
+            </button>
+
+            <button id="clearBtn">
+                Clear
+            </button>
+
+        </div>
+
+        <p id="message"></p>
+
+        <div id="boardContainer">
+
+            <!-- Chessboard will appear here -->
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
